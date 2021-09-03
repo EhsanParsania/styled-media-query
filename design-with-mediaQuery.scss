@@ -98,18 +98,12 @@ body {
 
     .png-logo {
         width: 10%;
-        // position:relative; 
-        //   align-self: center;
-        // background-color: white;
         margin: 10px 0 0 10px;
-
-
     }
 
 
     .main-photo-text {
         margin-left: 10px;
-        // margin-top: 50px;
         padding: 0;
         width: 50%;
         font-size: 1.8em;
@@ -135,7 +129,6 @@ body {
         border-top: 5px solid $red-color;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
-
 
         hr {
             width: 50%;
@@ -240,7 +233,6 @@ body {
     #content-container {
         width: 100%;
         display: flex;
-        // position: relative;
         justify-content: center;
         background-color: whitesmoke;
 
@@ -248,17 +240,14 @@ body {
             display: flex;
             align-items: center;
             flex-direction: column;
-
             width: 65%;
             background-color: whitesmoke;
             height: 1000px;
-
 
             .left-side-content {
                 margin: 0 10px;
                 width: 80%;
                 border-bottom: 1px solid silver;
-
 
                 .image {
 
@@ -266,8 +255,6 @@ body {
                     height: 200px;
                     background-size: cover;
                     margin: auto;
-
-
                 }
 
                 .image-1 {
@@ -282,12 +269,6 @@ body {
                     background-image: url('images/dormitory.jpg');
                 }
             }
-
-
-
-
-
-
         }
 
         .content-container-right-side {
@@ -304,6 +285,8 @@ body {
         }
     }
 }
+
+
 
 @media screen and (min-width:810px) {
     .navbar {
@@ -322,9 +305,7 @@ body {
 
                 li {
                     padding: 8px;
-
                     justify-content: end;
-
 
                     a {
                         color: white;
@@ -343,7 +324,6 @@ body {
             display: block;
         }
 
-
         .main-photo-text {
             color: white;
             font-size: 3.5em;
@@ -357,10 +337,7 @@ body {
                     }
                 }
             }
-
-
         }
-
     }
 
 
@@ -399,9 +376,6 @@ body {
             font-size: .8rem;
         }
     }
-
-
-
 }
 
 
